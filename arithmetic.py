@@ -12,7 +12,7 @@ def multiply(num1, num2):
 
 def divide(num1, num2):
     """Returns the quotient of 1st divided by the 2nd number"""
-    return num1 / num2
+    return num1 / float(num2)
 
 def square(num1):
     """Returns the square of the input"""
@@ -25,6 +25,7 @@ def cube(num1):
 def power(num1, num2):
     """Returns the 1st number raised to the power of the 2nd"""
     return num1 ** num2
+
 def mod(num1, num2):
     """Returns the modulo of the 1st number divided by second number"""
     return num1 % num2
